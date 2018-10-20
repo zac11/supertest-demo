@@ -1,0 +1,33 @@
+{
+  "name": "supertest-demo",
+  "version": "1.0.0",
+  "description": "SuperTest Demo Github repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zac11/supertest-demo.git"
+  },
+  "keywords": [
+    "API",
+    "Testing",
+    "Supertest",
+    "REST"
+  ],
+  "author": "RY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zac11/supertest-demo/issues"
+  },
+  "homepage": "https://github.com/zac11/supertest-demo#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "joi": "^14.0.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.0",
+    "should": "^13.2.3",
+    "supertest": "^3.3.0"
+  }
+}
